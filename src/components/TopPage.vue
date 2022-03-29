@@ -35,7 +35,7 @@ export default {
       background: url("@/assets/back.png");
       -webkit-background-clip: text;
       background-position: 0 0;
-      animation: back 20s linear infinite;
+      animation: back 18s linear infinite;
       word-break: normal;
     }
     @keyframes back {
@@ -47,6 +47,7 @@ export default {
     p {
       margin-top: 13%;
       font-size: 30px;
+      color: orange;
       font-weight: 600;
       line-height: 35px;
       word-break: normal;

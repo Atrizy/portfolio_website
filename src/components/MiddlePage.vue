@@ -49,9 +49,9 @@ export default {
   display: grid;
 
   h2 {
-    margin-right: 60px;
+    margin-right: 30px;
     margin-top: 80px;
-    color: white;
+    color: orange;
     font-size: 30px;
     font-weight: bolder;
     float: left;
@@ -59,7 +59,7 @@ export default {
 }
 .project_img {
   float: right;
-  border: 2px solid white;
+  border: 2px solid orange;
   border-radius: 6px;
   width: 175px;
   height: 175px;
@@ -67,7 +67,7 @@ export default {
 .project_content {
   margin-top: 15px;
   color: white;
-  width: 50%;
+  width: 65%;
   font-size: 20px;
 }
 .v-application p {

@@ -1,10 +1,13 @@
 <template>
   <div>
-    <v-card class="spacer background"></v-card>
+    <v-footer></v-footer>
   </div>
 </template>
 
 <script>
+import { init } from '@emailjs/browser';
+init("KGMtccPwKwbHm3oyc");
+
 export default {
   name: "bottom-page",
 };

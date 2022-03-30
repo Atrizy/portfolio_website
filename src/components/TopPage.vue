@@ -2,9 +2,9 @@
   <div>
     <v-card class="spacer background" tile>
       <v-card-title class="info_me">
-        <v-card-text class="text">
+        <v-card-text id="text">
         <h1>Hi, my name is Evan.</h1>
-        <p>I'm an emerging Software / Fullstack developer.</p>          
+        <p class="text_p">I'm an emerging Software / Fullstack developer.</p>          
         </v-card-text>
       </v-card-title>
     </v-card>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.text {
+#text {
   display: grid;
   position: relative;
   z-index: 99;
@@ -68,5 +68,10 @@ export default {
   background-image: url("@/assets/top.svg");
   width: 100%;
   height: 700px;
+}
+@media screen and (max-width: 768px) {
+  .text_p {
+    padding-top: 200px;
+  }
 }
 </style>

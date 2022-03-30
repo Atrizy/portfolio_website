@@ -95,6 +95,11 @@ export default {
 .background2 {
   background-image: url("@/assets/space.svg");
   width: 100%;
-  height: 700px;
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .text {
+    padding-top: 150px;
+  }
 }
 </style>

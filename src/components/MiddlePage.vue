@@ -40,7 +40,7 @@ export default {
   h1 {
     margin-top: 24%;
     margin-bottom: 250px;
-    color: white;
+    color: orange;
     font-size: 50px;
     line-height: 55px;
   }
@@ -83,7 +83,7 @@ export default {
 .background {
   background-image: url("@/assets/middle.svg");
   width: 100%;
-  height: 700px;
+  height: 900px;
 }
 .spacer2 {
   aspect-ratio: 960/300;

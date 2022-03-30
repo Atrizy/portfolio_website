@@ -15,7 +15,7 @@
         <v-text-field
           v-model="name"
           name="name"
-          background-color="white"
+          background-color="grey"
           class="text-field my-8"
           placeholder="Name..."
           outlined
@@ -25,7 +25,7 @@
           :rules="emailRules"
           v-model="email"
           name="email"
-          background-color="white"
+          background-color="grey"
           class="text-field my-8"
           placeholder="Email..."
           outlined
@@ -35,7 +35,7 @@
           :rules="messageRules"
           name="message"
           v-model="message"
-          background-color="white"
+          background-color="grey"
           placeholder="Message..."
           outlined
         ></v-textarea>
